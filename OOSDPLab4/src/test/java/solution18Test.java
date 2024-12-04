@@ -9,8 +9,8 @@ public class solution18Test {
     public void testProductExceptSelf1() {
         Solution solution = new Solution();
         int[] nums = {1, 2, 3, 4};
-        //int[] expected = {24, 12, 8, 6};
-        int[] expected = {124, 112, 18, 16};
+        int[] expected = {24, 12, 8, 6};
+        //int[] expected = {124, 112, 18, 16};
         assertArrayEquals(expected, solution.productExceptSelf(nums));
         System.out.println(Arrays.toString(solution.productExceptSelf(nums)));
     }
